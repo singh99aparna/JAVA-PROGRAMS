@@ -1,0 +1,57 @@
+class Addition
+{
+	int num1=10;
+	int num2=20;
+	void getAdd()
+	{
+	int sum=num1+num2;
+    System.out.println("Sum of two numbers is ="+sum);
+}
+}
+class Subtraction
+{
+	int num1=30;
+	int num2=10;
+	void getSub()
+	{
+		int sub=num1-num2;
+	System.out.println("Subtraction of two numbers is="+sub);
+	}
+}
+class Multiply
+{
+	int num1=20;
+	int num2=10;
+	void getMul()
+	{
+		int mul=num1*num2;
+		System.out.println("Multiplication of two numbers is="+mul);
+	}
+	
+}
+class Division
+{
+	int num1=40;
+	int num2=20;
+	void getDiv()
+	{
+		int div=num1/num2;
+		System.out.println("Divison of two numbers is="+div);
+	}
+}
+public class calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Addition a1 =new Addition();
+		a1.getAdd();
+		Subtraction s1 = new Subtraction();
+		s1.getSub();
+        Multiply m= new Multiply();
+        m.getMul();
+        Division d = new Division();
+        d.getDiv();
+        
+	}
+
+}
